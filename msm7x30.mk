@@ -52,9 +52,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/msm7x30-common/prebuilt/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so
 
-# adb hack
+# mtp fix
 PRODUCT_COPY_FILES += \
-    device/htc/msm7x30-common/prebuilt/20fixup:system/etc/init.d/20fixup
+    device/htc/msm7x30-common/prebuilt/20mtp:system/etc/init.d/20mtp
 
 PRODUCT_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
 
